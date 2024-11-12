@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Section Titles */
+.property-section h2 {
+  color: #333;
+}
+
+/* Selectors Examples */
+p.example-color {
+  color: #3498db; /* Setting text color using HEX */
+}
+
+/* Font Examples */
+.example-font {
+  font-family: "Georgia", serif;
+  font-size: 1.2em;
+  font-weight: bold; /* Sets text to be bold */
+}
+
+/* Box Model Example */
+.example-box {
+  width: 200px;
+  padding: 20px;
+  border: 2px solid #333;
+  margin: 20px auto;
+  background-color: #f4f4f4;
+  /* Explanation:
+       - padding: space inside the box,
+       - border: outline of the box,
+       - margin: space outside the box
+    */
+}
+
+/* Flexbox Layout Example */
+.example-flexbox {
+  display: flex; /* Sets container to flex layout */
+  justify-content: space-around; /* Spreads items evenly */
+}
+
+.flex-item {
+  background-color: #ddd;
+  padding: 10px;
+  margin: 5px;
+  width: 80px;
+  text-align: center;
+  /* Each flex item with padding, margin, and width */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
